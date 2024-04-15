@@ -1,0 +1,71 @@
+
+
+/* tengo que agregar comentarios */
+
+body {
+    background-color: #e7dfd5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  a{
+    color: darkred;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline ;
+    font-weight: bold;
+  }
+ /* a darker color would look nice  */
+a:visited{
+  color: #58111A;
+}
+  hr {
+    border-color: #84a9ac;
+    border-style: dotted none none;
+    width: 5%;
+    border-top-width: 8px;
+  }
+  h1, h4{
+    color:#204051;
+    background-color: #e7dfd5;
+  }
+  h2{
+    color:#999fa1
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
+  .homegb{ 
+    background-image: url('../images/bgfoto.jpeg');
+  }
+
+  p{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .box1{
+  border-width: 1px;
+  border-style: solid;
+  }
+
+  .box2{
+    padding: 5px;
+  }
+
+  .box3{
+    margin: 50px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .video-container {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
